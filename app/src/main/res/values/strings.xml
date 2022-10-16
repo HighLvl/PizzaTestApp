@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PizzaTestApp</string>
+    <string name="bottom_nav_menu">Меню</string>
+    <string name="bottom_nav_profile">Профиль</string>
+    <string name="bottom_nav_cart">Корзина</string>
+    <string name="menu_list_item_select_button_text">от %1$d р</string>
+    <string name="menu_city">Москва</string>
+    <string name="snackbar_no_connection">Нет подключения</string>
+    <string name="snackbar_refresh">Обновить</string>
+</resources>

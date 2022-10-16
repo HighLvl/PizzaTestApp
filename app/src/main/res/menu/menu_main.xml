@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ru.cherepanov.apps.pizzatestapp.ui.MainActivity">
+    <item
+        android:id="@+id/menu_fragment"
+        android:icon="@drawable/ic_menu"
+        android:title="@string/bottom_nav_menu" />
+    <item
+        android:id="@+id/profile_fragment"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/bottom_nav_profile" />
+    <item
+        android:id="@+id/cart_fragment"
+        android:icon="@drawable/ic_cart"
+        android:title="@string/bottom_nav_cart" />
+</menu>

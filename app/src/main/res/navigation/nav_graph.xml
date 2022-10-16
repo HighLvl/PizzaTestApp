@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menu_fragment">
+    <fragment
+        android:id="@+id/menu_fragment"
+        android:name="ru.cherepanov.apps.pizzatestapp.ui.menu.MenuFragment"
+        android:label="@string/bottom_nav_menu"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/profile_fragment"
+        android:name="ru.cherepanov.apps.pizzatestapp.ui.profile.ProfileFragment"
+        android:label="@string/bottom_nav_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/cart_fragment"
+        android:name="ru.cherepanov.apps.pizzatestapp.ui.cart.CartFragment"
+        android:label="@string/bottom_nav_cart"
+        tools:layout="@layout/fragment_cart" />
+</navigation>

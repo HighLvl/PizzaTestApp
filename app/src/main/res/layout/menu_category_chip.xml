@@ -1,0 +1,11 @@
+<com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/CustomChipChoice"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:checkable="true"
+    android:clickable="true"
+    android:focusable="true"
+    android:minWidth="88dp"
+    android:stateListAnimator="@animator/menu_chip_animation"
+    android:textAlignment="center"
+    android:textAppearance="@style/ChipText" />
